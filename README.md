@@ -27,7 +27,8 @@ If you XSOAR is built with Docker:
 ```
 $ chmod +x docker-build-custom-image.sh
 $ ./docker-build-custom-image.sh
-4. Verify by going to XSOAR GUI console and run command /docker_images
 ```
+4. Verify by going to XSOAR GUI console and run command /docker_images
+
 ![image](https://user-images.githubusercontent.com/41276379/208785017-34859ebf-c419-4a61-92ba-37a0f74bd0c1.png)
 
