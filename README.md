@@ -1,5 +1,5 @@
 # Custom-CA-Cert-Docker-Image-Pwsh
-This bash script will create a custom Docker image based on a demisto Powershell Exchange online v3 image and add custom trusted CA certificate. The custom Docker image now can be used by XSOAR Powershell based integration to initiate session in a SSL decryption enabled network environment.
+This bash script will create a custom Docker image based on a demisto Powershell Exchange Online v3 image and add custom trusted CA certificate. The custom Docker image now can be used by XSOAR Powershell EXO based integration to initiate session in a SSL decryption enabled network environment.
 
 # How to
 
