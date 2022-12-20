@@ -6,7 +6,7 @@ This bash script will create a custom Docker image based on a demisto Powershell
 ### Podman
 If your XSOAR is built with Podman
 1. Copy the podman-build-custom-image.sh to /home/demisto on XSOAR server.
-2. Edit the script (vi podman-build-custom-image.sh) and replace the section <your certificate here> to your CA certificate (in PEM format)
+2. Edit the script (vi podman-build-custom-image.sh) and replace the section `<your certificate here>` with your CA certificate (in PEM format)
 ![image](https://user-images.githubusercontent.com/41276379/208784440-5bf0746f-f0ba-4320-ad3a-af5c797c5edb.png)
 3. Run the script as demisto. This is important to run under demisto user because Podman is running in rootless mode.
 ```
@@ -21,7 +21,7 @@ $ ./podman-build-custom-image.sh
 ### Docker
 If you XSOAR is built with Docker:
 1. Copy the docker-build-custom-image.sh to any directory on XSOAR server.
-2. Edit the script (vi docker-build-custom-image.sh) and replace the section <your certificate here> to your CA certificate (in PEM format)
+2. Edit the script (vi docker-build-custom-image.sh) and replace the section `<your certificate here>` with your CA certificate (in PEM format)
 ![image](https://user-images.githubusercontent.com/41276379/208784440-5bf0746f-f0ba-4320-ad3a-af5c797c5edb.png)
 3. Run the script as root
 ```
